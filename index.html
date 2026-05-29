@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio for Tejas Rao Papannagari, Data + AI Engineer and GenAI Engineer."
+    />
+    <title>Tejas Rao Papannagari | Data + AI Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="siteHeader">
+      <div class="nav-shell">
+        <a class="brand" href="#hero" aria-label="Tejas Rao Papannagari home">
+          <span class="brand-mark">TR</span>
+          <span class="brand-text">Tejas Rao Papannagari</span>
+        </a>
+
+        <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle dark mode">
+            <svg class="icon moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 14.2A8.5 8.5 0 0 1 9.8 3 7 7 0 1 0 21 14.2Z"></path>
+            </svg>
+            <svg class="icon sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+            </svg>
+          </button>
+          <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+        <div class="hero-content">
+          <div class="hero-main">
+            <p class="eyebrow">Data systems, GenAI products, and production engineering</p>
+            <h1>Tejas Rao Papannagari</h1>
+            <p class="hero-role">Data &amp; AI Engineer | GenAI Systems Builder</p>
+            <p class="hero-copy">
+              I build practical AI systems across backend APIs, LLM workflows, RAG pipelines, real-time
+              communication, observability, and cloud deployment. My work focuses on turning GenAI ideas
+              into reliable products that teams can actually use.
+            </p>
+
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button button-primary" href="#projects">
+                <span>View Projects</span>
+                <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </a>
+              <a class="button button-primary" href="resume/Tejas_Rao_Papannagari_Resume.pdf" download>
+                <span>Download Resume</span>
+                <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v12M7 10l5 5 5-5M5 21h14"></path>
+                </svg>
+              </a>
+              <a class="button button-ghost" href="https://github.com/yorker2004" target="_blank" rel="noreferrer">
+                <span class="brand-glyph">GH</span>
+                <span>GitHub</span>
+              </a>
+              <a class="button button-ghost" href="https://www.linkedin.com/in/tejas-rao-papannagari-85988a26a" target="_blank" rel="noreferrer">
+                <span class="brand-glyph">in</span>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container two-column">
+          <div class="section-heading">
+            <p class="section-kicker">About Me</p>
+            <h2>Engineer for AI products that need to work outside the demo.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              I am a Data + AI Engineer building backend services, data workflows, and LLM-powered applications.
+              My work sits at the intersection of Python engineering, production APIs, retrieval systems,
+              agentic workflows, and cloud infrastructure.
+            </p>
+            <p>
+              I care about systems that are observable, secure, maintainable, and useful for real teams. I am
+              comfortable moving from architecture and prototyping into deployment, monitoring, and iteration.
+            </p>
+            <div class="signal-list" aria-label="Professional strengths">
+              <div>
+                <strong>Production mindset</strong>
+                <span>FastAPI services, Dockerized workloads, and cloud deployments.</span>
+              </div>
+              <div>
+                <strong>Applied GenAI</strong>
+                <span>LLMs, RAG, agents, multi-agent flows, and evaluation-aware design.</span>
+              </div>
+              <div>
+                <strong>Operational visibility</strong>
+                <span>Metrics, traces, dashboards, and incident-oriented workflows.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-heading compact">
+            <p class="section-kicker">Skills</p>
+            <h2>Technical toolkit for AI-native systems.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Backend and Data</h3>
+              <div class="pill-list">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>SQL</span>
+                <span>PostgreSQL</span>
+                <span>Kafka</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <h3>Cloud and Platform</h3>
+              <div class="pill-list">
+                <span>Docker</span>
+                <span>AWS ECS</span>
+                <span>AWS Fargate</span>
+                <span>OpenTelemetry</span>
+                <span>Prometheus</span>
+                <span>Grafana</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <h3>GenAI Engineering</h3>
+              <div class="pill-list">
+                <span>LLMs</span>
+                <span>RAG</span>
+                <span>AI Agents</span>
+                <span>Multi-Agent Systems</span>
+                <span>TextRank</span>
+                <span>BART</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <h3>Communication AI</h3>
+              <div class="pill-list">
+                <span>LiveKit</span>
+                <span>Twilio</span>
+                <span>Realtime voice</span>
+                <span>Messaging APIs</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading compact">
+            <p class="section-kicker">Experience</p>
+            <h2>Building AI systems across product workflows, cloud, and data.</h2>
+          </div>
+
+          <div class="experience-timeline">
+            <article class="experience-card">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="experience-meta">
+                <span>Company</span>
+                <strong>Lakhi Information Technology</strong>
+              </div>
+              <div class="experience-body">
+                <p class="experience-role">Data + AI Engineer</p>
+                <p>
+                  Building production-ready AI systems, backend services, observability pipelines, and
+                  cloud-native deployments.
+                </p>
+                <ul class="check-list">
+                  <li>Built AI-powered omnichannel communication workflows across Web Chat, WhatsApp, Email, Voice, and Video.</li>
+                  <li>Designed A2A-based AI orchestration using 4 specialized agents.</li>
+                  <li>Built backend services using FastAPI, WebSockets, REST APIs, LiveKit, and Twilio.</li>
+                  <li>Worked with Docker, AWS ECS, and AWS Fargate deployments.</li>
+                  <li>Implemented observability using OpenTelemetry, Prometheus, and Grafana.</li>
+                  <li>Developed AI-assisted automation workflows for bookings, reminders, and task execution.</li>
+                </ul>
+                <div class="tech-stack" aria-label="Lakhi Information Technology tech stack">
+                  <span>FastAPI</span>
+                  <span>Python</span>
+                  <span>Docker</span>
+                  <span>AWS ECS</span>
+                  <span>AWS Fargate</span>
+                  <span>LiveKit</span>
+                  <span>Twilio</span>
+                  <span>OpenTelemetry</span>
+                  <span>Prometheus</span>
+                  <span>Grafana</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="experience-card">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="experience-meta">
+                <span>Company</span>
+                <strong>Intone Networks</strong>
+              </div>
+              <div class="experience-body">
+                <p class="experience-role">Data Science Intern</p>
+                <p>
+                  Worked on machine learning, data analytics, and AI-driven workflow development.
+                </p>
+                <ul class="check-list">
+                  <li>Developed data processing and machine learning workflows.</li>
+                  <li>Built RAG-oriented experimentation and AI-assisted solutions.</li>
+                  <li>Worked with Python data analysis libraries and model development pipelines.</li>
+                  <li>Supported business intelligence and analytics initiatives.</li>
+                  <li>Collaborated on AI and automation proof-of-concepts.</li>
+                </ul>
+                <div class="tech-stack" aria-label="Intone Networks tech stack">
+                  <span>Python</span>
+                  <span>Pandas</span>
+                  <span>NumPy</span>
+                  <span>Scikit-Learn</span>
+                  <span>TensorFlow</span>
+                  <span>Machine Learning</span>
+                  <span>Data Analytics</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="projects">
+        <div class="container">
+          <div class="section-heading compact">
+            <p class="section-kicker">Featured Projects</p>
+            <h2>Focused work that shows production thinking across AI workflows and NLP.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-topline">
+                <span>01</span>
+                <span>Incident Response AI</span>
+              </div>
+              <h3>Deep Incident Pilot</h3>
+              <p>
+                AI-assisted incident workflow system that connects service context, telemetry signals, tool
+                execution, approval checkpoints, and observability logs to help teams triage production
+                incidents faster.
+              </p>
+              <div class="project-tags">
+                <span>FastAPI</span>
+                <span>AI Workflows</span>
+                <span>Human Approval</span>
+                <span>Observability</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>02</span>
+                <span>NLP Summarization</span>
+              </div>
+              <h3>Hybrid Text Summarization using TextRank + BART</h3>
+              <p>
+                Hybrid summarization pipeline combining extractive ranking with abstractive generation to
+                produce concise, readable summaries from long-form documents.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>TextRank</span>
+                <span>BART</span>
+                <span>NLP</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-layout">
+          <div class="section-heading">
+            <p class="section-kicker">Contact</p>
+            <h2>Open to data, AI, and GenAI engineering opportunities.</h2>
+            <p>
+              The fastest way to reach me is email. You can also review my work on GitHub or connect with me
+              on LinkedIn, and download my resume as a PDF.
+            </p>
+          </div>
+          <div class="contact-actions" aria-label="Contact actions">
+            <a class="contact-button" href="mailto:tejasraop@gmail.com?subject=Portfolio%20Inquiry">
+              <span class="contact-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 6h16v12H4z"></path>
+                  <path d="m4 7 8 6 8-6"></path>
+                </svg>
+              </span>
+              <span>
+                <strong>Email</strong>
+                <small>tejasraop@gmail.com</small>
+              </span>
+            </a>
+            <a class="contact-button" href="https://github.com/yorker2004" target="_blank" rel="noreferrer">
+              <span class="contact-icon brand-glyph">GH</span>
+              <span>
+                <strong>GitHub</strong>
+                <small>github.com/yorker2004</small>
+              </span>
+            </a>
+            <a class="contact-button" href="https://www.linkedin.com/in/tejas-rao-papannagari-85988a26a" target="_blank" rel="noreferrer">
+              <span class="contact-icon brand-glyph">in</span>
+              <span>
+                <strong>LinkedIn</strong>
+                <small>tejas-rao-papannagari-85988a26a</small>
+              </span>
+            </a>
+            <a class="contact-button" href="resume/Tejas_Rao_Papannagari_Resume.pdf" download>
+              <span class="contact-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path>
+                  <path d="M14 3v5h5M12 11v6M9 14l3 3 3-3"></path>
+                </svg>
+              </span>
+              <span>
+                <strong>Resume</strong>
+                <small>Download PDF</small>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>Tejas Rao Papannagari</span>
+        <a href="#hero">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
