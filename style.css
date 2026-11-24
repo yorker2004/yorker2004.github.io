@@ -1055,3 +1055,29 @@ canvas {
     transition-duration: 1ms !important;
   }
 }
+
+/* Project evidence and accessible navigation */
+.project-subtitle {font-weight:650;color:var(--primary)!important;}
+.project-details {padding-left:1.2rem;color:var(--muted);font-size:.95rem;}
+.project-details li+li {margin-top:.6rem;}
+.project-source {display:inline-block;margin-top:1.2rem;font-weight:650;color:var(--primary);text-decoration:underline;text-underline-offset:4px;}
+.project-source:hover {color:var(--text);}
+a:focus-visible,button:focus-visible {outline:3px solid var(--primary);outline-offset:5px;}
+.skip-link {position:fixed;left:1rem;top:-100px;padding:.7rem 1rem;background:var(--surface);z-index:1000;}
+.skip-link:focus {top:1rem;}
+@media (prefers-reduced-motion:reduce) {html {scroll-behavior:auto;}}
+
+.employer-project h4 {font-size:1.05rem;margin:1.4rem 0 .65rem;color:var(--text);}
+.employer-project .check-list {margin-top:0;}
+
+/* Inline brand logos retain the existing button and card hover effects. */
+.brand-icon { width:22px; height:22px; flex:0 0 auto; fill:currentColor; }
+.button .brand-icon-linkedin { color:#0a66c2; }
+:root[data-theme="dark"] .button .brand-icon-linkedin { color:#70b5f9; }
+.contact-icon .brand-icon-github { color:var(--text); }
+.contact-icon .brand-icon-linkedin { color:#0a66c2; }
+:root[data-theme="dark"] .contact-icon .brand-icon-linkedin { color:#70b5f9; }
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  .brand-icon { transition:transform 180ms ease; }
+  .button:hover .brand-icon, .contact-button:hover .brand-icon { transform:scale(1.1); }
+}
